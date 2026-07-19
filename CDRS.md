@@ -418,3 +418,34 @@ Comprehensive Reviews SHOULD maximize evidence-based findings and SHOULD minimiz
 
 The review mode affects the amount of available Evidence and the expected confidence of the review. It does not modify the review method defined by this specification.
 
+# 9. Accepted Inputs
+
+A Continuity Design Review (CDR) MAY be conducted using any combination of Evidence Sources that provide sufficient information to perform the review method defined by this specification.
+
+This specification does not require specific input formats. Different implementations MAY use different sources of information provided they are relevant, identifiable, and appropriate for the scope of the review.
+
+Accepted Evidence Sources include, but are not limited to:
+
+- product interfaces;
+- screenshots;
+- wireframes;
+- prototypes;
+- design specifications;
+- product documentation;
+- user research;
+- interviews;
+- usability studies;
+- analytics;
+- product metrics;
+- support tickets;
+- user feedback;
+- session recordings;
+- technical documentation;
+- direct interaction with the product.
+
+Reviewers SHOULD use multiple Evidence Sources whenever reasonably available.
+
+When important Evidence is unavailable, the review SHOULD explicitly identify the resulting Assumptions and reflect any reduction in Confidence.
+
+The absence of a particular Evidence Source MUST NOT prevent a review from being conducted, provided the limitations are clearly documented.
+
