@@ -1,19 +1,20 @@
-# CDRS Roadmap
+# Continuity Design Roadmap
 
-This document outlines the planned evolution of the Continuity Design Review Specification (CDRS).
+This document outlines the planned evolution of the Continuity Design project.
 
-The roadmap communicates the intended direction of the specification rather than a fixed commitment. Priorities may change as the framework matures and implementation experience grows.
+The roadmap communicates the intended direction of the project rather than a fixed commitment. Priorities may evolve as the framework matures, implementation experience grows, and community feedback is incorporated.
 
 ---
 
 # Guiding Principles
 
-The evolution of CDRS aims to:
+The evolution of the project aims to:
 
 - Preserve the conceptual integrity of the Continuity Design framework.
-- Improve the consistency of product reviews.
-- Increase implementation interoperability.
-- Remain implementation-independent.
+- Maintain a clear separation between framework, specification, and implementations.
+- Improve the consistency and repeatability of product evaluations.
+- Remain implementation-independent whenever possible.
+- Encourage practical adoption through examples and reference implementations.
 - Minimize unnecessary complexity.
 
 ---
@@ -22,16 +23,15 @@ The evolution of CDRS aims to:
 
 **Status:** Stable
 
-Initial public release of the specification.
+Initial public release of the project.
 
-Goals:
+Completed:
 
-- Define the review methodology.
-- Define review modes.
-- Define the review process.
-- Define evaluation dimensions.
-- Define the report structure.
-- Establish the confidence model.
+- Continuity Design Framework
+- Continuity Design Review Specification (CDRS)
+- Open project documentation
+- Contribution guidelines
+- Project governance
 
 ---
 
@@ -39,12 +39,15 @@ Goals:
 
 **Status:** Planned
 
+Focus on validating and strengthening the methodology through practical application.
+
 Potential additions include:
 
-- Additional examples.
-- Expanded terminology.
-- Clarifications based on implementation feedback.
-- Additional guidance for reviewers.
+- Reference product reviews
+- Review templates
+- Additional framework examples
+- Clarifications based on implementation feedback
+- Expanded documentation
 
 No breaking changes are expected.
 
@@ -54,37 +57,46 @@ No breaking changes are expected.
 
 **Status:** Exploratory
 
-Potential topics under consideration:
+Potential areas of exploration include:
 
-- Domain-specific review profiles.
-- Machine-readable specification.
-- Formal compliance criteria.
-- Reference implementation.
-- AI-oriented implementation guidance.
+- AI-assisted review workflows
+- Machine-readable review format
+- Reference implementation
+- Domain-specific review profiles
+- Developer tooling
+- Documentation website
 
-The scope of Version 2.0 has not yet been defined.
+The scope of Version 2.0 has not yet been finalized.
 
 ---
 
 # Long-Term Vision
 
-The long-term vision for CDRS is to become a common specification for evaluating digital products through the Continuity Design framework.
+The long-term vision is to establish Continuity Design as an open ecosystem for evaluating digital products.
+
+The project is expected to evolve across four complementary layers:
+
+- Framework
+- Specification
+- Reference Implementations
+- Tooling
 
 Future implementations may include:
 
-- AI assistants
-- Product review tools
-- Design plugins
+- AI review assistants
+- Web applications
+- IDE extensions
+- Design tool plugins
 - Documentation generators
 - Educational material
 - Certification programs
 
-These implementations are intentionally outside the scope of this specification.
+These implementations are intentionally outside the scope of the framework and the CDRS specification.
 
 ---
 
 # Community Feedback
 
-Implementation experience is one of the most valuable sources of improvement for CDRS.
+Implementation experience is one of the most valuable sources of improvement for the project.
 
-Feedback, discussions, issue reports, and case studies are encouraged and will help guide future versions of the specification.
+Feedback, discussions, issue reports, case studies, and independent implementations are encouraged and will help guide future versions of both the Continuity Design framework and the CDRS.
