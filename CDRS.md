@@ -55,18 +55,6 @@ This specification is normative. The conceptual foundations of the Continuity De
 
 ## 6. Terminology
 
-### 6.1 Review
-
-### 6.2 Reviewer
-
-### 6.3 Evidence
-
-### 6.4 Inference
-
-### 6.5 Confidence
-
-### 6.6 Recommendation
-
 ---
 
 # Part II — Review Method
@@ -269,4 +257,114 @@ CDRS is intended to complement these disciplines rather than replace them.
 A CDR MAY reference findings produced by other evaluation methods when they provide relevant evidence. However, those methods remain outside the scope of this specification.
 
 Similarly, this specification does not define the internal architecture of software systems or artificial intelligence systems that implement CDRS. Implementations are free to choose any architecture, algorithms, workflows, or technologies, provided they satisfy the normative requirements defined by this specification.
+
+# 6. Terminology
+
+This section defines the normative terminology used throughout this specification.
+
+## Continuity Design
+
+The theoretical framework upon which this specification is based.
+
+The Continuity Design framework defines the conceptual principles for evaluating how digital products support users throughout their broader journeys. This specification defines a method for applying those principles during product evaluation.
+
+---
+
+## Continuity Design Review (CDR)
+
+A product evaluation performed according to the Continuity Design Review Specification (CDRS).
+
+A CDR consists of the review activities and the resulting report defined by this specification.
+
+---
+
+## Reviewer
+
+The entity responsible for conducting a Continuity Design Review.
+
+A Reviewer MAY be:
+
+- an individual;
+- a team;
+- a software application; or
+- an artificial intelligence system.
+
+---
+
+## Specification
+
+This normative document.
+
+The specification defines the requirements for conducting a Continuity Design Review without prescribing implementation details.
+
+---
+
+## Implementation
+
+Any system, workflow, or process that performs Continuity Design Reviews according to this specification.
+
+Different implementations MAY use different architectures, technologies, workflows, or algorithms provided they satisfy the normative requirements defined by CDRS.
+
+---
+
+## Evidence Source
+
+Any artifact, observation, document, interface, or other source of information used during a review.
+
+Examples include:
+
+- product interfaces;
+- screenshots;
+- prototypes;
+- wireframes;
+- product documentation;
+- user research;
+- interviews;
+- analytics.
+
+---
+
+## Evidence
+
+Information directly obtained from one or more Evidence Sources.
+
+Evidence represents observable facts rather than interpretations or conclusions.
+
+---
+
+## Inference
+
+A conclusion derived from available Evidence.
+
+An Inference extends beyond directly observable facts and SHOULD be supported by available Evidence whenever possible.
+
+---
+
+## Assumption
+
+A temporary statement adopted when sufficient Evidence is unavailable.
+
+Assumptions SHOULD be explicitly identified and SHOULD be minimized whenever additional Evidence can reasonably be obtained.
+
+---
+
+## Confidence
+
+A qualitative assessment of how strongly an Inference or Assumption is supported by the available Evidence.
+
+Confidence communicates the certainty of a conclusion rather than its importance.
+
+---
+
+## Recommendation
+
+A proposed improvement intended to strengthen product continuity.
+
+Recommendations SHOULD be actionable, evidence-based, and clearly traceable to the findings of the review.
+
+---
+
+## Compliant Review
+
+A Continuity Design Review that satisfies all normative requirements defined by this specification.
 
