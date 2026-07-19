@@ -87,9 +87,9 @@ This specification is normative. The conceptual foundations of the Continuity De
 
 ### 12.2 Product Understanding
 
-### 12.3 Findings
+### 12.3 Evaluation
 
-### 12.4 Evaluation
+### 12.4 Findings
 
 ### 12.5 Recommendations
 
@@ -527,4 +527,90 @@ The Overall Assessment SHOULD identify:
 - any limitations affecting the review.
 
 The Overall Assessment SHOULD remain consistent with the individual dimension assessments and SHOULD NOT introduce unsupported conclusions.
+
+# 12. Report Structure
+
+Every Continuity Design Review (CDR) MUST produce a structured report that communicates the review process, findings, and recommendations in a clear and consistent manner.
+
+Implementations MAY differ in presentation, formatting, or level of detail provided the required report sections remain identifiable.
+
+## 12.1 Executive Summary
+
+The report SHOULD begin with a concise summary of the review.
+
+The Executive Summary SHOULD include:
+
+- the purpose of the review;
+- the review mode;
+- the principal findings; and
+- the overall assessment.
+
+---
+
+## 12.2 Product Understanding
+
+This section summarizes the product being evaluated and establishes the context for the review.
+
+It SHOULD include, when available:
+
+- product purpose;
+- intended users;
+- review scope; and
+- relevant contextual information.
+
+---
+
+## 12.3 Evaluation
+
+This section presents the assessment of each applicable Evaluation Dimension.
+
+Each dimension assessment SHOULD include:
+
+- qualitative assessment;
+- supporting Evidence;
+- key Inferences;
+- Confidence; and
+- optional Recommendations.
+
+---
+
+## 12.4 Findings
+
+This section summarizes the most significant observations identified during the review.
+
+Findings SHOULD be supported by the corresponding Evaluation and SHOULD distinguish between observed Evidence and derived Inferences.
+
+---
+
+## 12.5 Recommendations
+
+This section presents proposed improvements based on the review findings.
+
+Recommendations SHOULD be:
+
+- actionable;
+- evidence-based;
+- traceable to the corresponding findings; and
+- prioritized when appropriate.
+
+---
+
+## 12.6 Confidence Assessment
+
+This section summarizes the confidence of the review.
+
+It SHOULD identify:
+
+- areas with high confidence;
+- areas with reduced confidence;
+- significant Assumptions; and
+- important evidence limitations.
+
+---
+
+## 12.7 Conclusion
+
+The report SHOULD conclude with an Overall Assessment summarizing the principal strengths, continuity challenges, and opportunities for improvement identified during the review.
+
+The Conclusion SHOULD remain consistent with the findings presented throughout the report.
 
