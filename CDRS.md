@@ -17,6 +17,14 @@ framework: Continuity Design
 
 # Abstract
 
+The Continuity Design Review Specification (CDRS) defines a standardized method for evaluating digital products through the Continuity Design framework.
+
+The specification establishes a repeatable, implementation-independent review process that produces consistent and actionable evaluations. It defines the review modes, accepted inputs, review process, evaluation dimensions, confidence model, and report structure required for a CDRS-compliant review.
+
+CDRS is intended to be applicable by both human reviewers and artificial intelligence systems. It specifies **what** a compliant review MUST accomplish without prescribing **how** it MUST be implemented.
+
+This specification is normative. The conceptual foundations of the Continuity Design framework are defined separately and are referenced where appropriate.
+
 ---
 
 # Table of Contents
