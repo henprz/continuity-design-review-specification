@@ -178,3 +178,21 @@ The Continuity Design framework introduces a complementary perspective by consid
 The Continuity Design Review Specification (CDRS) defines a standardized method for applying this perspective during product evaluation. It establishes a common review process, terminology, and reporting structure that enables consistent evaluations across different reviewers, organizations, and implementations.
 
 CDRS is implementation-independent. It defines the expected behavior and outputs of a review without prescribing the internal processes, tools, or technologies used to perform it.
+
+# 2. Purpose
+
+The purpose of the Continuity Design Review Specification (CDRS) is to define a standardized method for evaluating digital products through the Continuity Design framework.
+
+The specification establishes a common review methodology that enables reviewers to produce consistent, transparent, and actionable evaluations regardless of the implementation used.
+
+CDRS defines:
+
+- the review modes available for conducting an evaluation;
+- the information required to perform a review;
+- the review process;
+- the evaluation dimensions;
+- the confidence model;
+- the structure of the resulting report.
+
+This specification is intended to promote consistency across reviews rather than prescribe a single implementation. Any implementation that satisfies the normative requirements defined in this document MAY be considered CDRS-compliant.
+
