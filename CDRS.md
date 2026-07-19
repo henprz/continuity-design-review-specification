@@ -614,3 +614,48 @@ The report SHOULD conclude with an Overall Assessment summarizing the principal 
 
 The Conclusion SHOULD remain consistent with the findings presented throughout the report.
 
+# 13. Conformance
+
+An implementation is considered compliant with the Continuity Design Review Specification (CDRS) if it satisfies all normative requirements defined in this specification.
+
+A compliant implementation MUST:
+
+- follow the Review Method defined in Section 7;
+- support one or more Review Modes defined in Section 8;
+- accept one or more applicable Evidence Sources as described in Section 9;
+- apply the Confidence Model defined in Section 10;
+- assess all applicable Evaluation Dimensions as defined in Section 11; and
+- produce a report consistent with the Report Structure defined in Section 12.
+
+Implementations MAY extend this specification with additional features, workflows, reports, or internal processes provided such extensions do not contradict or replace the normative requirements defined by CDRS.
+
+Claims of compliance SHOULD clearly identify the version of the specification against which compliance is asserted.
+
+# 14. References
+
+## Normative References
+
+- Continuity Design Framework
+
+## Informative References
+
+No informative references are defined by this version of the specification.
+
+# 15. Versioning
+
+This specification follows Semantic Versioning (SemVer).
+
+Version numbers use the format:
+
+MAJOR.MINOR.PATCH
+
+where:
+
+- MAJOR versions introduce incompatible normative changes.
+- MINOR versions introduce backward-compatible normative additions or clarifications.
+- PATCH versions introduce editorial corrections, formatting improvements, or other non-normative changes.
+
+The current version of this specification is identified in the document frontmatter.
+
+Implementations claiming compliance SHOULD specify the version of the specification against which compliance is declared.
+
