@@ -221,4 +221,29 @@ The Continuity Design Review Specification (CDRS) is designed to achieve the fol
 - **AI Compatibility**  
   The specification SHOULD be implementable by both human reviewers and artificial intelligence systems without requiring different review methodologies.
 
-  
+  # 4. Scope
+
+This specification defines the normative requirements for conducting a Continuity Design Review (CDR).
+
+Specifically, CDRS defines:
+
+- the supported review modes;
+- the accepted forms of review evidence;
+- the review method;
+- the evaluation dimensions;
+- the confidence model;
+- the structure of a compliant review report;
+- the conformance requirements for CDRS implementations.
+
+The specification defines **what** a compliant review MUST accomplish without prescribing **how** it MUST be implemented.
+
+CDRS is applicable to the evaluation of digital products regardless of:
+
+- industry;
+- business model;
+- platform;
+- product maturity;
+- implementation technology.
+
+The specification MAY be implemented by individuals, teams, software applications, or artificial intelligence systems.
+
