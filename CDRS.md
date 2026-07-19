@@ -59,49 +59,13 @@ This specification is normative. The conceptual foundations of the Continuity De
 
 # Part II — Review Method
 
-## 7. Review Modes
+## 7. Review Method
 
-### 7.1 Quick Review
+## 8. Review Modes
 
-### 7.2 Guided Review
+## 9. Accepted Inputs
 
----
-
-## 8. Accepted Inputs
-
-### 8.1 User-Provided Evidence
-
-### 8.2 Supporting Documentation
-
-### 8.3 Additional Context
-
----
-
-## 9. Confidence Model
-
-### 9.1 Evidence vs Inference
-
-### 9.2 Confidence Levels
-
-### 9.3 Reporting Assumptions
-
----
-
-## 10. Review Process
-
-### 10.1 Product Understanding
-
-### 10.2 Context Analysis
-
-### 10.3 User Narrative
-
-### 10.4 Possibility Space Analysis
-
-### 10.5 Continuity Assessment
-
-### 10.6 Findings
-
-### 10.7 Recommendations
+## 10. Confidence Model
 
 ---
 
@@ -367,4 +331,35 @@ Recommendations SHOULD be actionable, evidence-based, and clearly traceable to t
 ## Compliant Review
 
 A Continuity Design Review that satisfies all normative requirements defined by this specification.
+
+# 7. Review Method
+
+The Continuity Design Review Specification (CDRS) defines a structured method for evaluating digital products through the Continuity Design framework.
+
+Every Continuity Design Review (CDR) MUST follow the review method defined by this specification.
+
+The review method transforms available Evidence into a structured assessment of how effectively a product supports continuity throughout the user's broader journey. The method is designed to produce consistent, transparent, and actionable evaluations while remaining independent of any specific implementation.
+
+A compliant CDR MUST perform the following review activities:
+
+1. **Product Understanding**  
+   Establish a shared understanding of the product, its purpose, intended users, and the available Evidence.
+
+2. **Context Analysis**  
+   Analyze the user's context and identify the conditions that influence decisions, interactions, and progress.
+
+3. **User Narrative Analysis**  
+   Evaluate how the product supports the user's broader narrative beyond individual tasks or isolated interactions.
+
+4. **Possibility Space Analysis**  
+   Examine how the product expands, constrains, or guides the meaningful possibilities available to the user.
+
+5. **Continuity Assessment**  
+   Assess how effectively the product preserves context, supports progress, and enables users to continue their journey over time.
+
+The review method defines the required outcomes of a Continuity Design Review. It does not prescribe the internal techniques, workflows, or technologies used to perform each review activity.
+
+Different implementations MAY use different processes, algorithms, or software architectures provided they satisfy the normative requirements defined by this specification.
+
+The following sections define the supported review modes, accepted inputs, and confidence model used throughout the review process.
 
