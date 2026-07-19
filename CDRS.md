@@ -449,3 +449,31 @@ When important Evidence is unavailable, the review SHOULD explicitly identify th
 
 The absence of a particular Evidence Source MUST NOT prevent a review from being conducted, provided the limitations are clearly documented.
 
+# 10. Confidence Model
+
+The Confidence Model defines how reviewers communicate the certainty of findings and recommendations produced during a Continuity Design Review (CDR).
+
+Confidence reflects the degree to which a conclusion is supported by the available Evidence. It does not represent the importance, severity, or priority of a finding.
+
+Every significant Inference and Recommendation SHOULD include an explicit assessment of Confidence.
+
+This specification defines three qualitative confidence levels.
+
+## High Confidence
+
+The conclusion is strongly supported by multiple, consistent Evidence Sources with few or no significant Assumptions.
+
+## Medium Confidence
+
+The conclusion is reasonably supported by available Evidence but includes one or more Assumptions or limitations that may affect its reliability.
+
+## Low Confidence
+
+The conclusion is based on limited Evidence, significant Assumptions, or incomplete information.
+
+Low Confidence findings MAY still provide valuable insights but SHOULD be interpreted with appropriate caution.
+
+Confidence assessments SHOULD be reviewed whenever additional Evidence becomes available.
+
+Implementations MAY use alternative internal methods for estimating Confidence provided the reported confidence levels remain consistent with the definitions in this specification.
+
