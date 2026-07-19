@@ -196,3 +196,29 @@ CDRS defines:
 
 This specification is intended to promote consistency across reviews rather than prescribe a single implementation. Any implementation that satisfies the normative requirements defined in this document MAY be considered CDRS-compliant.
 
+# 3. Design Goals
+
+The Continuity Design Review Specification (CDRS) is designed to achieve the following goals:
+
+- **Repeatability**  
+  Equivalent evidence SHOULD lead to equivalent review outcomes, regardless of the reviewer or implementation.
+
+- **Consistency**  
+  The specification SHOULD establish a common structure, terminology, and evaluation process across all compliant reviews.
+
+- **Transparency**  
+  Reviews MUST clearly distinguish between observed evidence, inferred conclusions, assumptions, and recommendations.
+
+- **Actionability**  
+  Reviews SHOULD produce recommendations that support meaningful improvements to the product.
+
+- **Implementation Independence**  
+  The specification MUST define expected behavior without prescribing implementation details, technologies, or internal algorithms.
+
+- **Adaptability**  
+  The review method SHOULD remain applicable across different industries, product domains, and levels of product maturity.
+
+- **AI Compatibility**  
+  The specification SHOULD be implementable by both human reviewers and artificial intelligence systems without requiring different review methodologies.
+
+  
