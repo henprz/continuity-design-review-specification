@@ -659,3 +659,58 @@ The current version of this specification is identified in the document frontmat
 
 Implementations claiming compliance SHOULD specify the version of the specification against which compliance is declared.
 
+# Appendix A — Recommended Review Workflow
+
+This appendix is informative and does not define normative requirements.
+
+The following workflow illustrates one possible sequence for conducting a Continuity Design Review (CDR). Implementations MAY adopt different workflows provided they remain compliant with the normative requirements defined in this specification.
+
+```text
+Collect Evidence
+        ↓
+Understand the Product
+        ↓
+Analyze Context
+        ↓
+Analyze the User Narrative
+        ↓
+Analyze the Possibility Space
+        ↓
+Assess Continuity
+        ↓
+Identify Findings
+        ↓
+Develop Recommendations
+        ↓
+Assess Confidence
+        ↓
+Produce the Review Report
+```
+
+The workflow presented above is intended as practical guidance rather than a mandatory implementation model.
+
+Implementations MAY combine, reorder, automate, or expand individual activities provided that the resulting review satisfies the conformance requirements defined by this specification.
+
+# Appendix B — Future Extensions
+
+This appendix is informative and describes areas that may be considered in future versions of the Continuity Design Review Specification (CDRS).
+
+Potential extensions include, but are not limited to:
+
+- additional Review Modes;
+- standardized report formats;
+- machine-readable review outputs;
+- automated review workflows;
+- AI-assisted review implementations;
+- collaborative review processes;
+- domain-specific review profiles;
+- certification and governance models.
+
+The inclusion of this appendix does not imply commitment to any specific roadmap or implementation schedule.
+
+Future versions of this specification SHOULD preserve backward compatibility whenever reasonably possible.
+
+---
+
+**End of Specification**
+
