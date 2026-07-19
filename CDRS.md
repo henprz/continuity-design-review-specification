@@ -73,9 +73,9 @@ This specification is normative. The conceptual foundations of the Continuity De
 
 ## 11. Evaluation Dimensions
 
-### 11.1 Dimension Structure
+### 11.1 Dimension Model
 
-### 11.2 Qualitative Ratings
+### 11.2 Dimension Assessment
 
 ### 11.3 Overall Assessment
 
@@ -476,4 +476,55 @@ Low Confidence findings MAY still provide valuable insights but SHOULD be interp
 Confidence assessments SHOULD be reviewed whenever additional Evidence becomes available.
 
 Implementations MAY use alternative internal methods for estimating Confidence provided the reported confidence levels remain consistent with the definitions in this specification.
+
+# 11. Evaluation Dimensions
+
+Evaluation Dimensions define the aspects of a product that MUST be assessed during a Continuity Design Review (CDR).
+
+The dimensions themselves are defined by the Continuity Design framework. This specification defines how those dimensions are evaluated and reported during a review.
+
+Every compliant CDR MUST assess every Evaluation Dimension that is applicable to the scope of the review.
+
+Each dimension MUST be evaluated independently using the available Evidence and the review method defined by this specification.
+
+The evaluation of one dimension MUST NOT determine or imply the evaluation of another dimension.
+
+The following subsections define the common assessment model used for all Evaluation Dimensions.
+
+## 11.1 Dimension Model
+
+Every Evaluation Dimension MUST be assessed using the same evaluation model.
+
+Each dimension assessment consists of:
+
+- qualitative assessment;
+- supporting Evidence;
+- key Inferences;
+- Confidence; and
+- optional Recommendations.
+
+Implementations MAY include additional information provided the required elements remain identifiable.
+
+## 11.2 Dimension Assessment
+
+Each Evaluation Dimension SHOULD be assessed using qualitative judgment rather than numerical scoring.
+
+Assessments SHOULD describe how effectively the product satisfies the intent of the evaluated dimension based on the available Evidence.
+
+This specification does not define numerical scores, weighted formulas, or ranking systems.
+
+Implementations MAY internally use alternative assessment methods provided the reported results remain consistent with this specification.
+
+## 11.3 Overall Assessment
+
+A Continuity Design Review SHOULD include an Overall Assessment summarizing the principal findings across all evaluated dimensions.
+
+The Overall Assessment SHOULD identify:
+
+- the product's primary strengths;
+- the principal continuity challenges;
+- the most significant opportunities for improvement; and
+- any limitations affecting the review.
+
+The Overall Assessment SHOULD remain consistent with the individual dimension assessments and SHOULD NOT introduce unsupported conclusions.
 
