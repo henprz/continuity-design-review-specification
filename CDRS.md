@@ -363,3 +363,58 @@ Different implementations MAY use different processes, algorithms, or software a
 
 The following sections define the supported review modes, accepted inputs, and confidence model used throughout the review process.
 
+# 8. Review Modes
+
+A Continuity Design Review (CDR) MAY be conducted using different review modes depending on the availability of Evidence.
+
+The selected review mode determines the expected level of completeness and confidence of the review. Regardless of the selected mode, every compliant review MUST follow the review method defined in this specification.
+
+This specification defines the following review modes.
+
+## Quick Review
+
+A Quick Review is intended for rapid evaluations based on limited Evidence.
+
+Typical use cases include:
+
+- early product concepts;
+- initial design discussions;
+- feature proposals;
+- exploratory evaluations.
+
+Quick Reviews SHOULD clearly identify assumptions and SHOULD communicate any limitations resulting from unavailable Evidence.
+
+---
+
+## Guided Review
+
+A Guided Review is intended for structured evaluations supported by multiple Evidence Sources.
+
+Typical use cases include:
+
+- product assessments;
+- design reviews;
+- product iterations;
+- release evaluations.
+
+Guided Reviews SHOULD provide more comprehensive findings than Quick Reviews and SHOULD reduce the number of assumptions whenever additional Evidence is available.
+
+---
+
+## Comprehensive Review
+
+A Comprehensive Review is intended for thorough evaluations supported by extensive Evidence from multiple sources.
+
+Typical use cases include:
+
+- strategic product assessments;
+- major redesigns;
+- organizational audits;
+- certification or governance processes.
+
+Comprehensive Reviews SHOULD maximize evidence-based findings and SHOULD minimize unsupported assumptions.
+
+---
+
+The review mode affects the amount of available Evidence and the expected confidence of the review. It does not modify the review method defined by this specification.
+
