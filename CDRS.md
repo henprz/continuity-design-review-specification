@@ -35,12 +35,6 @@ This specification is normative. The conceptual foundations of the Continuity De
 
 ## 1. Introduction
 
-### 1.1 Motivation
-
-### 1.2 Design Philosophy
-
-### 1.3 Relationship to the Continuity Design Framework
-
 ---
 
 ## 2. Purpose
@@ -172,3 +166,15 @@ This specification is normative. The conceptual foundations of the Continuity De
 ---
 
 ## Appendix B — Future Extensions
+
+---
+
+# 1. Introduction
+
+Digital products are commonly evaluated using methods that assess usability, interaction quality, accessibility, visual consistency, and task completion. These approaches provide valuable insights into how effectively users perform individual interactions within a product.
+
+The Continuity Design framework introduces a complementary perspective by considering how products support users beyond isolated interactions. Rather than evaluating a single moment of use, it examines how products help users maintain progress throughout their broader journeys.
+
+The Continuity Design Review Specification (CDRS) defines a standardized method for applying this perspective during product evaluation. It establishes a common review process, terminology, and reporting structure that enables consistent evaluations across different reviewers, organizations, and implementations.
+
+CDRS is implementation-independent. It defines the expected behavior and outputs of a review without prescribing the internal processes, tools, or technologies used to perform it.
