@@ -247,3 +247,26 @@ CDRS is applicable to the evaluation of digital products regardless of:
 
 The specification MAY be implemented by individuals, teams, software applications, or artificial intelligence systems.
 
+# 5. Out of Scope
+
+The Continuity Design Review Specification (CDRS) does not define or prescribe:
+
+- product strategy;
+- product discovery methods;
+- user research methodologies;
+- usability testing procedures;
+- UX heuristics;
+- interface design principles;
+- accessibility standards;
+- visual design systems;
+- software architecture;
+- implementation technologies;
+- software development processes;
+- business metrics or success criteria.
+
+CDRS is intended to complement these disciplines rather than replace them.
+
+A CDR MAY reference findings produced by other evaluation methods when they provide relevant evidence. However, those methods remain outside the scope of this specification.
+
+Similarly, this specification does not define the internal architecture of software systems or artificial intelligence systems that implement CDRS. Implementations are free to choose any architecture, algorithms, workflows, or technologies, provided they satisfy the normative requirements defined by this specification.
+
