@@ -3,7 +3,7 @@ title: Continuity Design Review Specification
 short_name: CDRS
 version: 1.0.0
 status: Stable
-author: Henrique Oliveira
+author: Henrique Przibisczki de Oliveira
 license: CC BY 4.0
 language: English
 framework: Continuity Design
