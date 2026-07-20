@@ -1,285 +1,257 @@
-# Continuity Design Review Report
+# Continuity Design Review
 
-> Reference report template for communicating the results of a Continuity Design Review (CDR).
-
-<!--
-Reference Report Template
-
-This document is a reference implementation of the reporting structure
-defined by the Continuity Design Review Specification (CDRS).
-
-Alternative report formats are permitted, provided they remain compliant
-with the specification.
-
-General Guidelines
-
-- Base every conclusion on observable evidence.
-- Clearly distinguish evidence from interpretation.
-- Explicitly document assumptions whenever evidence is incomplete.
-- Assign confidence levels to significant inferences and recommendations.
-- Keep the report self-contained and understandable without requiring
-  prior knowledge of the Continuity Design Framework.
--->
+> A structured evaluation of how a digital product contributes to the continuity of a user's journey.
 
 ---
 
 # Executive Summary
 
-<!--
-Provide a concise overview of the review.
+## At a Glance
 
-Summarize:
+| Item | Summary |
+|------|---------|
+| **Product** | |
+| **Review Mode** | Quick / Guided / Comprehensive |
+| **Evidence Reviewed** | |
+| **Overall Continuity Assessment** | Strong / Moderate / Weak |
+| **Primary Strength** | |
+| **Primary Opportunity** | |
+| **Overall Confidence** | High / Medium / Low |
 
-- The product being reviewed.
-- The purpose of the review.
-- The overall Continuity Design assessment.
-- The most significant strengths.
-- The primary opportunities for improvement.
+---
 
-Keep this section suitable for executive stakeholders.
--->
+## Overall Assessment
+
+Provide a concise executive summary (2–4 paragraphs).
+
+This section should explain:
+
+- how the product contributes to the user's broader journey;
+- the product's strongest contribution to continuity;
+- the most significant limitation observed;
+- the overall quality of the review based on available evidence.
+
+A decision-maker should understand the outcome of the review without reading the remainder of the document.
+
+---
+
+# Prioritized Recommendations
+
+Recommendations are ordered by their expected impact on the continuity of the user's journey rather than implementation effort.
+
+| Priority | Recommendation | Continuity Goal | Confidence |
+|----------|----------------|-----------------|------------|
+| High | | | |
+| High | | | |
+| Medium | | | |
+| Medium | | | |
+| Low | | | |
 
 ---
 
 # Product Understanding
 
-## Product
+## Product Purpose
 
-<!--
-Describe the product objectively.
-
-Include information such as:
-
-- Product name
-- Primary purpose
-- Target users
-- Business context (when known)
-
-Do not evaluate the product in this section.
--->
+Describe the apparent purpose of the product.
 
 ---
 
-## Evidence
+## Intended Users
 
-<!--
-List every evidence source used during the review.
+Describe the users the product appears to support.
 
-Examples:
+---
 
-- Product URL
+## Review Scope
+
+Clearly state what was evaluated.
+
+Also state what was NOT evaluated.
+
+---
+
+## Available Evidence
+
+List all evidence used during the review.
+
+Examples include:
+
+- Website
+- Product
 - Screenshots
 - Prototype
-- Wireframes
-- Product documentation
-- User interviews
+- Documentation
+- PRD
+- User Research
 - Analytics
-- Research reports
-
-This section should describe evidence only.
--->
 
 ---
 
 ## Assumptions
 
-<!--
-Document assumptions made due to incomplete or unavailable evidence.
+Explicitly document assumptions resulting from unavailable evidence.
 
-For each assumption, explain:
+---
 
-- Why the assumption was necessary.
-- Which missing evidence led to it.
-- Its confidence level.
+# Context Hypotheses
 
-Assumptions should never be hidden.
--->
+The Continuity Design Framework assumes that products never possess complete knowledge of the user's true context.
+
+Instead they construct hypotheses.
+
+For every major hypothesis describe:
+
+| Context Hypothesis | Supporting Evidence | Confidence |
+|-------------------|--------------------|------------|
+| | | |
+| | | |
+| | | |
 
 ---
 
 # Evaluation
 
-<!--
-Evaluate every Continuity Design dimension independently.
+Each Continuity Design Dimension must be evaluated independently.
 
-For every dimension:
-
-1. Describe observable evidence.
-2. Explain the inferences derived from that evidence.
-3. State the confidence level.
-
-Do not mix evidence with interpretation.
--->
+Every dimension follows exactly the same structure.
 
 ---
 
-## Context
+# Context
 
-### Assessment
+## Assessment
 
-<!--
-Evaluate how well the product understands, preserves, and applies user context.
--->
+Describe the observed behavior.
 
-### Evidence
+---
 
-<!--
-Describe observable facts only.
--->
+## Evidence
 
-### Inferences
+Only observable evidence.
 
-<!--
-Explain conclusions derived from the evidence.
--->
+---
 
-### Confidence
+## Context Hypothesis
+
+Describe the hypothesis the product appears to construct.
+
+---
+
+## Journey Impact
+
+How does this influence the user's broader journey?
+
+---
+
+## Continuity Impact
+
+Does this strengthen, weaken, redirect, or interrupt continuity?
+
+---
+
+## Confidence
 
 High / Medium / Low
 
 ---
 
-## JTBD & Narrative
+# JTBD & Narrative
 
-### Assessment
+## Assessment
 
-<!--
-Evaluate how well the product supports meaningful progress within the user's broader journey.
--->
+## Evidence
 
-### Evidence
+## Context Hypothesis
 
-### Inferences
+## Journey Impact
 
-### Confidence
+## Continuity Impact
 
-High / Medium / Low
+## Confidence
 
 ---
 
-## Possibility Space
+# Possibility Space
 
-### Assessment
+## Assessment
 
-<!--
-Evaluate how the product expands, preserves, or restricts meaningful future possibilities.
--->
+## Evidence
 
-### Evidence
+## Context Hypothesis
 
-### Inferences
+## Journey Impact
 
-### Confidence
+## Continuity Impact
 
-High / Medium / Low
+## Confidence
 
 ---
 
-## Continuity
+# Continuity
 
-### Assessment
+## Assessment
 
-<!--
-Evaluate how coherently interactions connect throughout the user's journey.
+## Evidence
 
-Consider how Context, JTBD & Narrative, and Possibility Space work together over time.
--->
+## Context Hypothesis
 
-### Evidence
+## Journey Impact
 
-### Inferences
+## Continuity Impact
 
-### Confidence
-
-High / Medium / Low
+## Confidence
 
 ---
 
 # Findings
 
-<!--
-Summarize the most important observations identified during the review.
+## Principal Strengths
 
-Group findings into strengths and opportunities.
-
-Every finding should be traceable to evidence presented earlier in the report.
--->
-
-## Strengths
-
--
-
-## Opportunities
-
--
+Summarize the observations that most strongly support continuity.
 
 ---
 
-# Recommendations
+## Principal Opportunities
 
-<!--
-Provide actionable recommendations.
-
-Each recommendation should be directly supported by one or more findings.
-
-Whenever possible, describe:
-
-- What should change.
-- Why the change matters.
-- Expected impact.
-- Confidence level.
-
-Avoid vague or generic recommendations.
--->
-
-| Recommendation | Expected Impact | Confidence |
-|----------------|-----------------|------------|
-|                |                 |            |
+Summarize the observations that most limit continuity.
 
 ---
 
 # Confidence Assessment
 
-<!--
-Summarize the overall confidence of the review.
+## High Confidence Findings
 
-Discuss:
+List findings strongly supported by evidence.
 
-- Quality of the available evidence.
-- Completeness of the evidence.
-- Significant assumptions.
-- Remaining uncertainties.
+---
 
-Confidence represents certainty in the review, not product quality.
--->
+## Reduced Confidence Areas
+
+Describe:
+
+- unavailable evidence;
+- assumptions;
+- important limitations.
+
+---
+
+## Overall Confidence
+
+Provide the overall confidence assessment for the review.
 
 ---
 
 # Conclusion
 
-<!--
-Provide a concise conclusion.
+Conclude the review by answering four questions:
 
-Summarize:
+1. What journey does the product appear to support?
 
-- Overall Continuity Design assessment.
-- Most significant strengths.
-- Primary Continuity Gaps.
-- Highest-priority improvement opportunities.
+2. Which context hypotheses most strongly shape that journey?
 
-Do not introduce new findings or recommendations.
--->
+3. How does the product reshape the user's possibility space?
 
----
+4. Overall, does the product strengthen or weaken continuity throughout the journey?
 
-# Review Metadata
-
-| Field | Value |
-|--------|-------|
-| Product | |
-| Reviewer | |
-| Organization | |
-| Review Date | |
-| Review Mode | Quick / Guided / Comprehensive |
-| Framework Version | |
-| CDRS Version | |
+The conclusion should synthesize the review rather than repeat previous sections.
