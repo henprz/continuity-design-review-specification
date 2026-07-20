@@ -39,13 +39,24 @@ A decision-maker should understand the outcome of the review without reading the
 
 Recommendations are ordered by their expected impact on the continuity of the user's journey rather than implementation effort.
 
-| Priority | Recommendation | Continuity Goal | Confidence |
-|----------|----------------|-----------------|------------|
-| High | | | |
-| High | | | |
-| Medium | | | |
-| Medium | | | |
-| Low | | | |
+| Priority | Recommendation | Example Features (1–3 examples) | Continuity Goal | Confidence |
+|----------|----------------|----------------------------------|-----------------|------------|
+| High | | | | |
+| High | | | | |
+| Medium | | | | |
+| Medium | | | | |
+| Low | | | | |
+
+For each recommendation, provide one to three short example features that illustrate how the recommendation could be realized.
+
+These examples should:
+
+- be concise (typically 2–8 words each);
+- describe product capabilities rather than implementation details;
+- provide different possible approaches when appropriate;
+- help readers quickly understand the recommendation.
+
+Examples are illustrative only and should not be interpreted as the recommended implementation.
 
 ---
 
