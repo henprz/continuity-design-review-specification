@@ -1,8 +1,10 @@
 # Continuity Design Glossary
 
-This glossary defines the core concepts of the Continuity Design Framework.
+This glossary defines the principal concepts used throughout the Continuity Design Framework and the Continuity Design Review Specification (CDRS).
 
-The definitions in this document are normative for the framework and provide a common vocabulary for the Continuity Design project. The Continuity Design Review Specification (CDRS) builds upon these concepts but defines additional terminology specific to the review process.
+The glossary establishes a common vocabulary intended to promote consistency across documentation, reviews, discussions, and implementations.
+
+Unless otherwise specified, the definitions in this document are conceptual rather than normative.
 
 ---
 
@@ -10,53 +12,57 @@ The definitions in this document are normative for the framework and provide a c
 
 ## Continuity
 
-The degree to which a product supports coherent and meaningful progress throughout a user's journey.
+The degree to which a product helps users continue their broader journey over time.
 
-Continuity emerges when interactions preserve context, build upon previous progress, and create valuable future possibilities over time.
+Continuity emerges when interactions preserve relevant context, support meaningful progress, and shape valuable future possibilities.
 
-It is the central concept of the Continuity Design Framework.
-
----
-
-## Journey
-
-The sequence of situations, decisions, and interactions experienced by a user while pursuing broader personal or professional goals.
-
-A journey extends beyond individual product sessions and often spans multiple products, services, channels, and real-world activities.
+It is an emergent property of the user's experience rather than a characteristic of any individual interaction.
 
 ---
 
-## Narrative
+## User Journey
 
-The evolving story that gives meaning to a user's journey.
+The sequence of experiences through which a user pursues meaningful goals over time.
 
-A narrative connects individual interactions into a coherent sequence of progress toward long-term objectives. Products participate in a user's narrative rather than existing independently of it.
+The journey extends beyond individual product sessions and belongs to the user rather than the product.
+
+Products participate in journeys but do not own them.
 
 ---
 
 ## Context
 
-The information that explains the user's current situation.
+The circumstances surrounding the user's current situation.
 
-Context may include intentions, goals, previous actions, constraints, preferences, environment, available resources, and any other factors relevant to understanding the user's needs at a given moment.
+Context includes intentions, previous decisions, constraints, preferences, expectations, environment, and other factors that influence the meaning of an interaction.
 
-Context is dynamic and evolves throughout the user's journey.
+Context belongs to the user rather than the product.
+
+---
+
+## Context Hypothesis
+
+A product's current interpretation of the user's context.
+
+Because products never possess complete knowledge of the user's true situation, they continuously construct and refine hypotheses about user context using available evidence.
+
+These hypotheses guide product behavior but remain subject to revision as additional information becomes available.
 
 ---
 
 ## Meaningful Progress
 
-Advancement toward goals that are valuable from the user's perspective.
+Progress perceived by the user as bringing them closer to goals that matter from the user's perspective.
 
-Meaningful Progress is determined by the user's objectives rather than the product's immediate objectives. Completing a task does not necessarily represent meaningful progress.
+Meaningful progress is determined by the user's broader objectives rather than by the successful completion of individual product tasks.
 
 ---
 
 ## Possibility Space
 
-The set of realistic future actions, decisions, and opportunities available to a user after an interaction.
+The realistic set of future actions, decisions, and opportunities available to the user after an interaction.
 
-Products continuously influence the Possibility Space by expanding, preserving, restricting, or redirecting future possibilities.
+Products influence the possibility space through interfaces, recommendations, workflows, and other design decisions that expand, preserve, constrain, or redirect future opportunities.
 
 ---
 
@@ -64,25 +70,25 @@ Products continuously influence the Possibility Space by expanding, preserving, 
 
 ## Interaction
 
-A moment in which a user engages with a product.
+A single exchange between a user and a product.
 
-Within the Continuity Design Framework, interactions are understood as parts of a broader journey rather than isolated events.
+Interactions are individual moments within a broader user journey and should not be evaluated in isolation from their surrounding context.
 
 ---
 
 ## Decision
 
-A choice made by a user during their journey.
+A choice made by either the user or the product that influences subsequent interactions.
 
-Every decision influences subsequent actions and changes the user's Possibility Space. Products may support, influence, or constrain these decisions.
+Design decisions affect the user's possibility space by determining which future paths become more or less accessible.
 
 ---
 
 ## Continuity Gap
 
-A disruption in the user's journey caused by the product's inability to preserve context, support meaningful progress, or connect interactions over time.
+A disruption that interrupts meaningful progress throughout the user's journey.
 
-Continuity Gaps often require users to reconstruct information, repeat work, or recover lost progress.
+Continuity gaps often arise when products fail to preserve relevant context, recognize previous progress, or support coherent future actions.
 
 ---
 
@@ -90,46 +96,81 @@ Continuity Gaps often require users to reconstruct information, repeat work, or 
 
 ## Continuity Design
 
-A conceptual framework for understanding how digital products contribute to the continuity of a user's journey.
+The conceptual framework for understanding how digital products contribute to the continuity of a user's journey.
 
-The framework defines the principles, concepts, and evaluation dimensions used to analyze products beyond isolated interactions.
-
----
-
-## Principle
-
-A foundational idea that guides how Continuity Design understands product quality.
-
-The framework is built upon five principles:
-
-- Continuity
-- Meaningful Progress
-- Context Preservation
-- Possibility Expansion
-- Narrative Coherence
+The framework defines the theoretical foundations, design principles, evaluation dimensions, and terminology used throughout the project.
 
 ---
 
-## Evaluation Dimension
+## Theoretical Foundations
 
-A conceptual perspective used to analyze a product through the Continuity Design Framework.
+The three fundamental propositions upon which Continuity Design is built:
 
-The framework defines four complementary dimensions:
+1. Every interaction has context.
+2. Context belongs to the user.
+3. Products define a possibility space.
+
+These foundations explain why continuity emerges and provide the conceptual basis for the framework.
+
+---
+
+## Design Principles
+
+The design philosophy that emerges from the theoretical foundations.
+
+The principles describe how products should contribute to a user's broader journey and provide conceptual guidance independent of any specific implementation.
+
+---
+
+## Evaluation Dimensions
+
+The four complementary perspectives through which products are evaluated within the framework:
 
 - Context
 - JTBD & Narrative
 - Possibility Space
 - Continuity
 
-Each dimension represents a different aspect of how products contribute to user continuity.
+The dimensions operationalize the framework for product evaluation.
 
 ---
 
 ## Continuity Design Review Specification (CDRS)
 
-The official specification that defines the standardized method for applying the Continuity Design Framework during product evaluations.
+The standardized method for applying the Continuity Design Framework during product evaluation.
 
-The framework defines **what** Continuity Design is.
+The CDRS defines the review process, evidence model, confidence model, report structure, and conformance requirements while remaining independent of any specific implementation.
 
-The CDRS defines **how** it is applied.
+---
 
+# Relationship Between the Concepts
+
+The concepts form a coherent conceptual hierarchy.
+
+```text
+User Journey
+        ↓
+Context
+        ↓
+Context Hypotheses
+        ↓
+Meaningful Progress
+        ↓
+Possibility Space
+        ↓
+Continuity
+```
+
+Products never directly observe the user's journey or true context.
+
+Instead, they continuously construct and refine context hypotheses, support meaningful progress, shape future possibilities, and ultimately contribute to continuity over time.
+
+---
+
+# Relationship to the Framework
+
+The glossary provides the common vocabulary shared by the Continuity Design Framework and the Continuity Design Review Specification (CDRS).
+
+The framework uses these concepts to explain the theory.
+
+The CDRS uses the same concepts to define a standardized review methodology.

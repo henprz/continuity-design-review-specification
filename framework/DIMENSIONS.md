@@ -1,12 +1,20 @@
 # Continuity Design Dimensions
 
-The Continuity Design Framework organizes product evaluation into four complementary dimensions.
+The Continuity Design Framework evaluates digital products through four complementary dimensions.
 
-Each dimension represents a distinct perspective on how a product contributes to the continuity of a user's journey.
+These dimensions do not exist independently.
 
-The dimensions are intentionally independent. Together, they provide a holistic understanding of product quality beyond isolated interactions.
+They emerge from the theoretical foundations of the framework and provide complementary perspectives for understanding how products contribute to the continuity of a user's journey.
 
-These dimensions are defined conceptually by the framework and operationalized by the Continuity Design Review Specification (CDRS).
+Together, they operationalize the central question of Continuity Design:
+
+> **How does this product help users continue their journey?**
+
+The dimensions are conceptually independent and should be evaluated separately.
+
+Taken together, they provide a holistic understanding of product quality beyond isolated interactions.
+
+The Continuity Design Review Specification (CDRS) defines how these dimensions are evaluated during a structured review.
 
 ---
 
@@ -14,24 +22,31 @@ These dimensions are defined conceptually by the framework and operationalized b
 
 ## Definition
 
-Context evaluates how well a product understands, preserves, and applies the information surrounding the user's situation.
+Context evaluates how effectively a product understands and applies hypotheses about the user's current situation.
 
-Context extends beyond user preferences or historical data. It includes intentions, constraints, previous actions, environment, goals, and other factors that influence decision-making.
+Context is more than historical information.
+
+It includes intentions, constraints, previous decisions, surrounding circumstances, and other factors that influence the user's journey.
+
+Because context belongs to the user rather than the product, this dimension evaluates how well the product reasons about context rather than whether it possesses it.
 
 ## Why It Matters
 
-Without context, every interaction begins as if it were the first.
+Every interaction already belongs to a broader journey.
 
-Products that effectively preserve context reduce cognitive effort, minimize repetition, and create interactions that feel connected over time.
+Without context, each interaction begins as if it were the first.
+
+Products that continuously refine their understanding of user context reduce unnecessary cognitive effort, avoid repetition, and create experiences that feel coherent over time.
 
 ## Key Questions
 
-Examples of questions explored through this dimension include:
+Examples include:
 
-- Does the product understand the user's current situation?
-- Does it preserve relevant information across interactions?
-- Does it adapt to changing circumstances?
-- Does it avoid asking users to repeatedly provide the same information?
+- Does the product recognize the user's current situation?
+- Does it preserve relevant context across interactions?
+- Does it adapt as the user's situation changes?
+- Does it continuously refine its understanding of the user?
+- Does it avoid treating every interaction as independent?
 
 ---
 
@@ -39,32 +54,30 @@ Examples of questions explored through this dimension include:
 
 ## Definition
 
-JTBD & Narrative evaluates how well a product supports the user's broader goals and long-term story.
-
-Rather than focusing exclusively on immediate tasks, this dimension examines whether interactions contribute to meaningful progress from the user's perspective.
+JTBD & Narrative evaluates how effectively the product supports meaningful progress within the user's broader journey.
 
 Jobs-to-be-Done explains why users seek progress.
 
-Narrative explains how individual interactions become part of a larger journey.
+Narrative explains how individual interactions become chapters within a larger story.
 
-Together, they describe whether the product helps users move toward meaningful outcomes.
+Together, they examine whether the product contributes to goals that matter from the user's perspective rather than merely supporting isolated tasks.
 
 ## Why It Matters
 
-Users rarely interact with products simply to complete isolated tasks.
+Users rarely interact with products solely to complete individual tasks.
 
-They seek progress within larger personal, professional, or organizational narratives.
+They seek progress toward broader personal, professional, or organizational objectives.
 
-Products become more valuable when they consistently support those narratives.
+Products become more valuable when they consistently help users continue those objectives over time.
 
 ## Key Questions
 
 Examples include:
 
-- Does the product help users make meaningful progress?
-- Does it support the user's broader objectives?
-- Are interactions connected to longer-term outcomes?
-- Does the product recognize previous progress?
+- Does the product support meaningful progress?
+- Does it recognize longer-term user goals?
+- Do interactions build upon previous progress?
+- Does the product contribute to the user's broader journey?
 
 ---
 
@@ -72,19 +85,17 @@ Examples include:
 
 ## Definition
 
-Possibility Space evaluates how interactions influence the user's future opportunities.
+Possibility Space evaluates how product decisions influence the meaningful opportunities available after each interaction.
 
-Every interaction changes what users can realistically do next.
+Every interface, recommendation, workflow, and available action shapes what the user can realistically do next.
 
-Products may expand, preserve, limit, or redirect future possibilities.
-
-This dimension examines whether those changes create meaningful value.
+Products influence journeys not only by responding to the present, but also by defining future possibilities.
 
 ## Why It Matters
 
-Good products do more than solve immediate problems.
+Every design decision expands, preserves, redirects, or constrains future opportunities.
 
-They enable users to make better future decisions, discover new opportunities, and continue progressing beyond the current interaction.
+Products that intentionally shape valuable possibility spaces help users continue making meaningful progress beyond the current interaction.
 
 ## Key Questions
 
@@ -93,7 +104,8 @@ Examples include:
 - Does the interaction create valuable future opportunities?
 - Does it increase user autonomy?
 - Does it expose meaningful next steps?
-- Does it unnecessarily restrict future choices?
+- Does it unnecessarily constrain future choices?
+- Does it encourage progress beyond the current session?
 
 ---
 
@@ -101,58 +113,77 @@ Examples include:
 
 ## Definition
 
-Continuity evaluates how coherently interactions connect throughout the user's journey.
+Continuity evaluates how coherently interactions connect throughout the user's broader journey.
 
-It represents the integration of the previous dimensions rather than an isolated characteristic.
+Unlike the previous dimensions, Continuity is not evaluated as an isolated property.
 
-Continuity emerges when products consistently preserve context, support meaningful progress, and expand relevant possibilities across time.
+It emerges from the combined effect of:
+
+- understanding context;
+- supporting meaningful progress; and
+- shaping valuable future possibilities.
 
 ## Why It Matters
 
 Individual interactions may be excellent while the overall journey remains fragmented.
 
-Continuity focuses on the quality of the complete experience rather than isolated moments.
+Continuity evaluates whether the product consistently helps users continue their own trajectory rather than optimizing disconnected moments.
 
 ## Key Questions
 
 Examples include:
 
 - Do interactions feel connected over time?
-- Is user progress preserved?
-- Does the product create a coherent long-term experience?
-- Does each interaction naturally build upon previous ones?
+- Is meaningful progress preserved?
+- Does the product evolve together with the user's journey?
+- Do previous interactions improve future ones?
+- Does the overall experience become more valuable over time?
 
 ---
 
 # Relationship Between the Dimensions
 
-The four dimensions complement one another.
+The dimensions reflect the progression implied by the theoretical foundations.
 
 ```
+User Journey
+      ↓
 Context
-        ↓
+      ↓
 JTBD & Narrative
-        ↓
+      ↓
 Possibility Space
-        ↓
+      ↓
 Continuity
 ```
 
-Although each dimension can be evaluated independently, meaningful continuity emerges from their combined effect.
+Each dimension answers a different question.
 
-- **Context** provides understanding.
-- **JTBD & Narrative** provides direction.
-- **Possibility Space** provides future opportunities.
-- **Continuity** reflects how these elements work together throughout the user's journey.
+- **Context** asks whether the product understands the user's situation.
+- **JTBD & Narrative** asks whether it supports meaningful progress.
+- **Possibility Space** asks how it shapes future opportunities.
+- **Continuity** asks whether these elements combine into a coherent long-term experience.
+
+Although each dimension is evaluated independently, continuity emerges from their combined effect rather than from any single dimension alone.
 
 ---
 
-# Relationship to the CDRS
+# Relationship to the Framework
 
-The Continuity Design Framework defines these dimensions conceptually.
+The Continuity Design Framework is organized into multiple conceptual layers.
 
-The Continuity Design Review Specification (CDRS) defines how each dimension is evaluated during a structured product review.
+```
+Theory
+    ↓
+Theoretical Foundations
+    ↓
+Design Principles
+    ↓
+Evaluation Dimensions
+    ↓
+CDRS
+```
 
-The framework answers **what should be evaluated**.
+The evaluation dimensions translate the framework's design philosophy into observable perspectives for product evaluation.
 
-The specification answers **how the evaluation is performed**.
+The Continuity Design Review Specification (CDRS) defines the standardized method for assessing these dimensions during a Continuity Design Review.

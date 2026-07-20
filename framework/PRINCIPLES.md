@@ -1,86 +1,128 @@
 # Continuity Design Principles
 
-The Continuity Design Framework is guided by a set of fundamental principles that describe how digital products create value over time.
+The Continuity Design Framework is grounded in three theoretical foundations:
 
-These principles are not evaluation criteria or implementation rules. Instead, they provide the conceptual foundation for understanding how products contribute to a user's journey.
+- Every interaction has context.
+- Context belongs to the user.
+- Products define a possibility space.
 
-Together, they shape the perspective adopted by the Continuity Design Framework and the Continuity Design Review Specification (CDRS).
+These foundations naturally imply a set of design principles that describe how digital products should contribute to a user's broader journey.
 
----
+The principles are not evaluation criteria, implementation rules, or mandatory design practices.
 
-# 1. Continuity
+Instead, they describe the design philosophy that emerges from the framework and help explain what products should seek to achieve over time.
 
-Products should be understood as participants in an ongoing user journey rather than isolated interactions.
-
-Every interaction influences future experiences, decisions, and opportunities. A product creates continuity when it helps users move naturally from one meaningful moment to the next without unnecessary friction or loss of progress.
-
-Continuity is the central principle of the framework.
+Together, they inform the evaluation dimensions defined by the framework and operationalized by the Continuity Design Review Specification (CDRS).
 
 ---
 
-# 2. Meaningful Progress
+# 1. Products Participate in Journeys
 
-Products should help users make progress toward goals that are meaningful from the user's perspective.
+Digital products should be understood as participants in ongoing user journeys rather than isolated interactions.
 
-Completing a task is not necessarily meaningful progress. Likewise, meaningful progress may occur even when no explicit task is completed.
+Users pursue goals that extend beyond any individual session or interface. Every interaction becomes one chapter within a broader story that continues before and after the product is used.
 
-The value of an interaction depends on how it advances the user's broader objectives rather than the product's immediate objectives.
-
----
-
-# 3. Context Preservation
-
-Products should preserve and appropriately use relevant context across interactions.
-
-Context includes information such as user intentions, previous decisions, current constraints, preferences, and surrounding circumstances.
-
-By preserving context, products reduce unnecessary cognitive effort and enable interactions that feel connected rather than independent.
+Design decisions should therefore consider not only the current interaction but also how that interaction contributes to the user's longer-term journey.
 
 ---
 
-# 4. Possibility Expansion
+# 2. Context Creates Meaning
 
-Products should increase the user's meaningful future possibilities whenever appropriate.
+The meaning of an interaction depends on the user's context.
 
-Each interaction changes the set of actions, decisions, and opportunities available to the user.
+Identical interactions may represent completely different situations depending on the user's goals, constraints, previous decisions, and intentions.
 
-Good products leave users with more relevant possibilities than they had before, while avoiding unnecessary complexity or confusion.
+Because context belongs to the user rather than the product, products should continuously construct and refine hypotheses about user context instead of assuming complete understanding.
 
-Possibility Expansion focuses on creating opportunities rather than merely completing transactions.
+Recognizing context enables interactions to become connected rather than isolated.
 
 ---
 
-# 5. Narrative Coherence
+# 3. Progress Should Be Meaningful
 
-Users experience products as part of larger personal stories.
+Products should help users make progress toward goals that matter from the user's perspective.
 
-Products should contribute coherently to those stories by supporting consistent progress over time.
+Completing a task is not necessarily meaningful progress.
 
-Interactions should reinforce previous achievements, acknowledge past decisions, and align with the user's evolving goals.
+Likewise, meaningful progress may occur even when no explicit task is completed.
 
-Narrative Coherence emphasizes the long-term relationship between products and users instead of isolated sessions.
+The value of an interaction depends on how effectively it helps users continue pursuing their own objectives rather than merely fulfilling the immediate objectives of the product.
+
+---
+
+# 4. Design Shapes Future Possibilities
+
+Every design decision influences what users can realistically do next.
+
+Interfaces, recommendations, workflows, and available actions define a possibility space that expands, preserves, or constrains future opportunities.
+
+Good products intentionally shape this possibility space to support meaningful future progress without creating unnecessary complexity.
+
+---
+
+# 5. Continuity Emerges Over Time
+
+Continuity is not created by a single successful interaction.
+
+It emerges gradually as products consistently:
+
+- recognize context;
+- support meaningful progress;
+- shape valuable future possibilities; and
+- connect interactions into coherent journeys.
+
+Products should therefore be designed as evolving relationships rather than collections of independent features.
 
 ---
 
 # Relationship Between the Principles
 
-The principles are complementary and mutually reinforcing.
+The principles reinforce one another.
 
-A product creates continuity by:
+```
+Products Participate in Journeys
+                ↓
+      Context Creates Meaning
+                ↓
+ Progress Should Be Meaningful
+                ↓
+Design Shapes Future Possibilities
+                ↓
+ Continuity Emerges Over Time
+```
 
-- understanding and preserving context;
-- supporting meaningful progress;
-- expanding relevant future possibilities; and
-- maintaining coherence across the user's broader narrative.
+Rather than functioning independently, the principles describe a coherent design philosophy.
 
-No single principle is sufficient on its own. Effective product experiences emerge from balancing all of them throughout the user's journey.
+Products first recognize that they participate in a broader journey.
+
+They interpret interactions through hypotheses about user context.
+
+They help users make meaningful progress.
+
+They intentionally shape future possibilities.
+
+Over time, these behaviors give rise to continuity.
 
 ---
 
 # Relationship to the Framework
 
-These principles define the conceptual perspective of Continuity Design.
+The Continuity Design Framework consists of multiple conceptual layers.
 
-They inform the evaluation dimensions described in the framework and provide the theoretical basis for the Continuity Design Review Specification (CDRS).
+```
+Theory
+    ↓
+Theoretical Foundations
+    ↓
+Design Principles
+    ↓
+Evaluation Dimensions
+    ↓
+CDRS
+```
 
-The principles are intentionally independent of any specific technology, platform, design methodology, or implementation approach.
+The principles translate the theoretical foundations into a design philosophy.
+
+The evaluation dimensions translate that philosophy into perspectives for product evaluation.
+
+The Continuity Design Review Specification (CDRS) defines how those dimensions are evaluated in a consistent and repeatable manner.

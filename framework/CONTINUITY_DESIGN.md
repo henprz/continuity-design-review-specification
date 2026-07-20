@@ -6,11 +6,13 @@
 
 Continuity Design is a conceptual framework for understanding how digital products contribute to the continuity of a user's journey.
 
-Rather than evaluating isolated interactions, the framework examines how products understand context, support meaningful progress, and create future possibilities for users.
+Traditional product evaluation methods primarily assess the quality of individual interactions. Continuity Design introduces a complementary perspective by examining how products participate in a broader user journey over time.
 
-Continuity Design complements existing disciplines such as usability, interaction design, user experience, and Jobs-to-be-Done by focusing on a broader question:
+Rather than asking only whether users successfully complete individual tasks, the framework asks a different question:
 
-> *How does this product help users continue their journey?*
+> **How does this product help users continue their journey?**
+
+This perspective shifts the object of evaluation from isolated interactions to the continuity of the user's broader trajectory.
 
 The framework is implementation-independent and serves as the conceptual foundation for the Continuity Design Review Specification (CDRS).
 
@@ -18,23 +20,29 @@ The framework is implementation-independent and serves as the conceptual foundat
 
 # 1. Introduction
 
-Digital products are commonly evaluated through perspectives such as usability, accessibility, visual design, performance, and task completion.
+Digital products are commonly evaluated through perspectives such as usability, accessibility, interaction quality, visual design, performance, and task completion.
 
-These perspectives are essential, but they primarily assess individual interactions or isolated experiences.
+These disciplines have significantly improved the quality of digital experiences by helping designers optimize individual interactions.
 
-Users, however, do not experience products as isolated moments.
+Users, however, rarely experience products as isolated interactions.
 
-Every interaction becomes part of an ongoing personal journey that extends before and after using the product.
+Every interaction is embedded within an ongoing personal, professional, or organizational journey that extends both before and after the product is used.
 
-Continuity Design proposes that product quality should also be understood through its ability to participate meaningfully in that journey.
+A search is influenced by previous decisions.
 
-Instead of asking only whether users completed a task, the framework asks whether the product helped users move forward.
+A purchase often represents progress toward a broader objective.
+
+A recommendation may influence decisions long after the current session ends.
+
+Products therefore participate in journeys rather than isolated moments.
+
+Continuity Design proposes that this participation should itself become an object of design and evaluation.
 
 ---
 
 # 2. The Problem
 
-Most evaluation frameworks optimize for immediate outcomes.
+Most existing product evaluation methods focus on the quality of individual interactions.
 
 Typical questions include:
 
@@ -43,7 +51,9 @@ Typical questions include:
 - Is the interaction efficient?
 - Are errors minimized?
 
-These questions evaluate interaction quality.
+These questions remain essential.
+
+However, they primarily evaluate the quality of a single interaction.
 
 They do not necessarily explain whether the interaction contributes to the user's broader objectives.
 
@@ -51,103 +61,205 @@ A product may provide an excellent interaction while creating little lasting val
 
 Conversely, a seemingly simple interaction may significantly influence future decisions, opportunities, or behaviors.
 
-Continuity Design focuses on this broader perspective.
+This suggests that product quality cannot be understood solely by examining individual interactions.
+
+It must also consider how those interactions connect throughout the user's broader journey.
 
 ---
 
-# 3. Core Idea
+# 3. A Change in Perspective
 
-The central idea of Continuity Design is that products participate in user journeys rather than isolated sessions.
+Continuity Design proposes a different perspective.
 
-Every interaction may influence:
+Instead of treating digital products as systems that respond to isolated interactions, it views them as participants in an evolving user journey.
 
-- future decisions;
-- future actions;
-- future opportunities;
-- future relationships;
-- future understanding.
+This changes the primary question of product evaluation.
 
-The quality of a product therefore depends not only on the current interaction but also on how that interaction contributes to what happens next.
+Instead of asking:
 
-Products create continuity when they reduce friction between meaningful moments of a user's journey instead of optimizing each interaction independently.
+> **Was this interaction successful?**
+
+Continuity Design asks:
+
+> **How does this interaction contribute to the user's ongoing journey?**
+
+The objective is no longer limited to optimizing the current interaction.
+
+It also includes supporting meaningful progress over time.
+
+This perspective does not replace existing disciplines such as usability, UX, or Jobs-to-be-Done.
+
+Instead, it complements them by introducing a longitudinal view of product experience.
 
 ---
 
-# 4. Fundamental Concepts
+# 4. Theoretical Foundations
 
-The framework is built upon five fundamental concepts.
+The framework is built upon three theoretical foundations.
+
+Together, they explain why continuity emerges and how products influence user journeys.
+
+---
+
+## 4.1 Every Interaction Has Context
+
+No interaction occurs in isolation.
+
+Every action already belongs to a broader context created by previous decisions, intentions, constraints, experiences, and future expectations.
+
+Context is more than historical information.
+
+It is the interpretation that gives meaning to an interaction by connecting it to what came before and what may come next.
+
+Designing interactions without considering context means evaluating only fragments of the user experience.
+
+---
+
+## 4.2 Context Belongs to the User
+
+The product participates in the user's journey but does not own it.
+
+Goals, motivations, intentions, and personal transformations belong to the user.
+
+The product never possesses the user's true context.
+
+Instead, it continuously constructs and refines hypotheses about that context using available evidence.
+
+These hypotheses guide decisions but always remain incomplete representations of the user's actual situation.
+
+Recognizing this distinction encourages products to adapt continuously rather than assume complete understanding.
+
+---
+
+## 4.3 Products Define a Possibility Space
+
+Every design decision influences what users can realistically do next.
+
+Interfaces, recommendations, workflows, and available actions define a possibility space that expands, constrains, or redirects future opportunities.
+
+Products do not determine the user's journey.
+
+They influence the set of possibilities through which that journey continues.
+
+Consequently, product design is not limited to responding to the present interaction.
+
+It also shapes the opportunities available after that interaction.
+
+---
+
+# 5. Fundamental Concepts
+
+The theoretical foundations give rise to five fundamental concepts used throughout the framework.
 
 ## User Journey
 
 A sequence of experiences extending beyond individual product sessions.
 
+The journey belongs to the user rather than the product.
+
 ---
 
 ## Context
 
-The circumstances that shape user decisions, expectations, constraints, and intentions.
+The circumstances surrounding the user's current situation, including intentions, constraints, previous decisions, and expectations.
+
+Products reason about context through hypotheses rather than direct knowledge.
 
 ---
 
 ## Meaningful Progress
 
-Progress perceived by the user as bringing them closer to their own goals.
+Progress perceived by the user as moving closer to goals that matter from the user's perspective.
 
-Progress is defined from the user's perspective rather than the product's objectives.
+Meaningful progress may extend far beyond completing a single task.
 
 ---
 
 ## Possibility Space
 
-The set of realistic future actions, decisions, or opportunities available after an interaction.
+The realistic set of future actions, decisions, and opportunities available after an interaction.
 
-Products influence this space by expanding, preserving, or restricting future possibilities.
+Products influence this space through their design decisions.
 
 ---
 
 ## Continuity
 
-The degree to which interactions connect coherently across time while preserving user progress, context, and opportunities.
+The degree to which interactions connect coherently across time while supporting meaningful progress throughout the user's journey.
+
+Continuity emerges from the interaction between context, progress, and possibility rather than from any single interaction.
 
 ---
 
-# 5. Design Philosophy
+# 6. Design Philosophy
 
-Continuity Design is guided by several principles.
+The theoretical foundations naturally imply several design principles.
 
-## Products participate in journeys
+## Products Participate in Journeys
 
-Products are chapters of larger stories rather than complete stories themselves.
-
----
-
-## Context creates meaning
-
-The same interaction may have different value depending on the user's context.
+Products contribute to broader user journeys rather than isolated interactions.
 
 ---
 
-## Progress is cumulative
+## Context Creates Meaning
 
-Each interaction should contribute to future progress instead of existing as an isolated success.
-
----
-
-## Decisions shape future possibilities
-
-Every design decision influences the user's future possibility space.
+The value of an interaction depends on the user's context rather than on the interaction alone.
 
 ---
 
-## Continuity emerges over time
+## Progress Is Meaningful
 
-Continuity cannot be measured from a single interaction.
-
-It becomes visible only when observing how interactions connect across the user's broader journey.
+Interactions should contribute to goals that matter from the user's perspective.
 
 ---
 
-# 6. Relationship to Existing Disciplines
+## Possibilities Shape Future Progress
+
+Design decisions influence future opportunities by defining the user's possibility space.
+
+---
+
+## Continuity Emerges Over Time
+
+Continuity is not an individual interaction property.
+
+It emerges as interactions accumulate into coherent journeys.
+
+---
+
+# 7. Evaluation Dimensions
+
+The framework organizes product evaluation into four complementary dimensions.
+
+These dimensions operationalize the theoretical foundations.
+
+## Context
+
+How effectively the product understands, preserves, and applies hypotheses about the user's context.
+
+---
+
+## JTBD & Narrative
+
+How effectively the product supports meaningful progress within the user's broader journey.
+
+---
+
+## Possibility Space
+
+How effectively the product expands, preserves, or guides meaningful future opportunities.
+
+---
+
+## Continuity
+
+How coherently interactions connect over time while supporting the user's ongoing journey.
+
+Together, these dimensions provide a holistic perspective on how products contribute to user continuity.
+
+---
+
+# 8. Relationship to Existing Disciplines
 
 Continuity Design complements rather than replaces existing product disciplines.
 
@@ -161,53 +273,36 @@ Continuity Design complements rather than replaces existing product disciplines.
 | Service Design | Cross-channel experience |
 | Continuity Design | Continuity of the user's journey |
 
-The framework integrates naturally with these disciplines by introducing a longitudinal perspective.
+Existing disciplines primarily optimize interactions.
+
+Continuity Design evaluates how those interactions connect throughout a broader journey.
 
 ---
 
-# 7. Evaluation Dimensions
+# 9. Applying the Framework
 
-The framework organizes evaluations into four complementary dimensions.
+The framework is intentionally independent of any particular evaluation methodology or implementation.
 
-## Context
+It may be applied through interviews, design critiques, heuristic evaluations, workshops, AI-assisted analyses, or other assessment methods.
 
-How well the product understands and applies user context.
+The standardized application of the framework is defined by the **Continuity Design Review Specification (CDRS)**.
 
----
+The framework defines **what should be understood and evaluated**.
 
-## JTBD & Narrative
-
-How well the product supports the user's intended progress and long-term story.
+The CDRS defines **how a consistent evaluation is performed**.
 
 ---
 
-## Possibility Space
+# 10. References
 
-How effectively the product expands meaningful future opportunities.
+## Primary Reference
 
----
+Henrique Przibisczki de Oliveira.
 
-## Continuity
+*Design de Continuidade* (Portuguese) - https://medium.com/@henrique.prz/design-de-continuidade-8a890183d386
 
-How coherently interactions connect across the user's broader journey.
+## Related Work
 
-Together, these dimensions provide a holistic understanding of how products contribute to user continuity.
-
----
-
-# 8. Applying the Framework
-
-The framework is intentionally independent of any specific evaluation methodology.
-
-It may be applied through interviews, design critiques, workshops, heuristic reviews, AI-assisted evaluations, or other assessment methods.
-
-The official standardized application of the framework is defined by the **Continuity Design Review Specification (CDRS)**.
-
----
-
-# 9. References
-
+- Clayton Christensen et al. — *Competing Against Luck*
+- Alan Klement — *When Coffee and Kale Compete*
 - Continuity Design Review Specification (CDRS)
-- Original article: *Design de Continuidade* (Portuguese) https://medium.com/@henrique.prz/design-de-continuidade-8a890183d386
-
-

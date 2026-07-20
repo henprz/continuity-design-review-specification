@@ -25,6 +25,8 @@ CDRS is intended to be applicable by both human reviewers and artificial intelli
 
 This specification is normative. The conceptual foundations of the Continuity Design framework are defined separately and are referenced where appropriate.
 
+The review evaluates evidence about how a product constructs and applies hypotheses about user context, supports meaningful progress, shapes future possibilities, and contributes to continuity over time.
+
 ---
 
 # Table of Contents
@@ -332,6 +334,14 @@ Recommendations SHOULD be actionable, evidence-based, and clearly traceable to t
 
 A Continuity Design Review that satisfies all normative requirements defined by this specification.
 
+---
+
+### Context Hypothesis
+
+A Context Hypothesis is the product's current interpretation of the user's context based on available evidence.
+
+Because products never possess complete knowledge of the user's true context, reviewers evaluate how effectively the product constructs, updates, and applies context hypotheses throughout the user's journey.
+
 # 7. Review Method
 
 The Continuity Design Review Specification (CDRS) defines a structured method for evaluating digital products through the Continuity Design framework.
@@ -340,13 +350,17 @@ Every Continuity Design Review (CDR) MUST follow the review method defined by th
 
 The review method transforms available Evidence into a structured assessment of how effectively a product supports continuity throughout the user's broader journey. The method is designed to produce consistent, transparent, and actionable evaluations while remaining independent of any specific implementation.
 
+The review evaluates observable product behavior rather than internal implementation details.
+
+Whenever user context cannot be directly observed, reviewers construct Context Hypotheses supported by the available Evidence.
+
 A compliant CDR MUST perform the following review activities:
 
 1. **Product Understanding**  
    Establish a shared understanding of the product, its purpose, intended users, and the available Evidence.
 
-2. **Context Analysis**  
-   Analyze the user's context and identify the conditions that influence decisions, interactions, and progress.
+2. **Context Hypothesis Assessment**
+   Construct and evaluate hypotheses about the user's context using the available Evidence. Identify how those hypotheses influence interactions, decisions, and meaningful progress throughout the journey.
 
 3. **User Narrative Analysis**  
    Evaluate how the product supports the user's broader narrative beyond individual tasks or isolated interactions.
@@ -360,6 +374,10 @@ A compliant CDR MUST perform the following review activities:
 The review method defines the required outcomes of a Continuity Design Review. It does not prescribe the internal techniques, workflows, or technologies used to perform each review activity.
 
 Different implementations MAY use different processes, algorithms, or software architectures provided they satisfy the normative requirements defined by this specification.
+
+The review does not evaluate whether a product perfectly understands its users.
+
+Instead, it evaluates the quality of the evidence suggesting that the product constructs and continuously refines useful hypotheses about user context.
 
 The following sections define the supported review modes, accepted inputs, and confidence model used throughout the review process.
 
@@ -511,6 +529,10 @@ Each Evaluation Dimension SHOULD be assessed using qualitative judgment rather t
 
 Assessments SHOULD describe how effectively the product satisfies the intent of the evaluated dimension based on the available Evidence.
 
+Reviewers SHOULD distinguish between observable product behavior and inferred interpretations.
+
+Conclusions SHOULD remain traceable to the available Evidence and any Context Hypotheses constructed during the review.
+
 This specification does not define numerical scores, weighted formulas, or ranking systems.
 
 Implementations MAY internally use alternative assessment methods provided the reported results remain consistent with this specification.
@@ -556,7 +578,7 @@ It SHOULD include, when available:
 - product purpose;
 - intended users;
 - review scope; and
-- relevant contextual information.
+- available evidence about the user's broader journey and relevant contextual information.
 
 ---
 
@@ -571,6 +593,8 @@ Each dimension assessment SHOULD include:
 - key Inferences;
 - Confidence; and
 - optional Recommendations.
+
+When evaluating the Context dimension, reviewers SHOULD explicitly describe the principal Context Hypotheses supported by the available Evidence.
 
 ---
 
@@ -670,11 +694,11 @@ Collect Evidence
         ↓
 Understand the Product
         ↓
-Analyze Context
+Construct Context Hypotheses
         ↓
-Analyze the User Narrative
+Evaluate JTBD & Narrative
         ↓
-Analyze the Possibility Space
+Evaluate Possibility Space
         ↓
 Assess Continuity
         ↓
