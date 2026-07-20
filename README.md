@@ -10,10 +10,37 @@ The project provides:
 
 - a conceptual framework for understanding continuity throughout the user's journey;
 - a standardized review specification (CDRS);
-- reference templates and examples;
-- a foundation for future tools and AI-assisted evaluations.
+- reference assets for applying the framework consistently;
+- a foundation for software tools and AI-assisted evaluations.
 
 Together, these components enable consistent, transparent, and actionable product evaluations that can be performed by individuals, teams, software applications, or AI systems.
+
+---
+
+# Repository Philosophy
+
+This repository is intentionally modular.
+
+Rather than concentrating all knowledge in a few large documents, each document answers one specific question. This makes the project easier to understand, maintain, and implement while providing clear sources of truth for both human readers and AI systems.
+
+| Question | Document |
+|----------|----------|
+| What is Continuity Design? | `framework/CONTINUITY_DESIGN.md` |
+| Which principles define the framework? | `framework/PRINCIPLES.md` |
+| Which dimensions are evaluated? | `framework/DIMENSIONS.md` |
+| What do the framework's terms mean? | `framework/GLOSSARY.md` |
+| How should a Continuity Design reviewer think? | `framework/REVIEW_PHILOSOPHY.md` |
+| How should Continuity Design observations be written? | `templates/reviews/review-patterns.md` |
+| How should the official AI reviewer interact with users? | `gpt/GPT_BEHAVIOR.md` |
+| How is a Continuity Design review performed? | `specification/CDRS.md` |
+| How is the final review report structured? | `templates/reports/report.md` |
+| When should a Quick Review be used? | `templates/reviews/quick-review.md` |
+| When should a Guided Review be used? | `templates/reviews/guided-review.md` |
+| When should a Comprehensive Review be used? | `templates/reviews/comprehensive-review.md` |
+
+Each document owns a single responsibility.
+
+This separation minimizes overlap, simplifies maintenance, and allows implementations to compose the framework consistently.
 
 ---
 
@@ -22,16 +49,16 @@ Together, these components enable consistent, transparent, and actionable produc
 Traditional product evaluation methods focus on questions such as:
 
 - Is the interface usable?
-- Is the interaction clear?
+- Is the interaction understandable?
 - Can users complete their tasks efficiently?
 
 These questions remain important.
 
-Continuity Design addresses a complementary question:
+Continuity Design introduces a complementary question:
 
 > **How well does this product help users continue their own journey?**
 
-Rather than evaluating isolated interactions, Continuity Design examines how products preserve context, support meaningful progress, expand future possibilities, and contribute to coherent user journeys over time.
+Rather than evaluating isolated interactions, Continuity Design examines how products understand context, preserve continuity, expand future possibilities, and support meaningful progress throughout the user's broader journey.
 
 ---
 
@@ -39,7 +66,7 @@ Rather than evaluating isolated interactions, Continuity Design examines how pro
 
 The project is organized into four complementary layers.
 
-```
+```text
 Continuity Design
         ↓
 Framework
@@ -51,27 +78,44 @@ Reference Assets
 Implementations
 ```
 
-Each layer has a distinct purpose.
+Each layer has a distinct responsibility.
 
-- **Framework** defines the conceptual foundation.
-- **Specification (CDRS)** defines the standardized review method.
-- **Reference Assets** demonstrate how the framework and specification are applied.
-- **Implementations** apply the framework through software, services, and other tools.
+| Layer | Responsibility |
+|------|----------------|
+| Framework | Defines the conceptual foundation. |
+| Specification (CDRS) | Defines the standardized review process. |
+| Reference Assets | Demonstrate how the framework is applied. |
+| Implementations | Apply the framework through software and services. |
 
 ---
 
 # Repository Structure
 
-```
+```text
 continuity-design/
 │
 ├── framework/
+│   ├── CONTINUITY_DESIGN.md
+│   ├── PRINCIPLES.md
+│   ├── DIMENSIONS.md
+│   ├── GLOSSARY.md
+│   └── REVIEW_PHILOSOPHY.md
 │
 ├── specification/
-│
-├── examples/
+│   └── CDRS.md
 │
 ├── templates/
+│   ├── reports/
+│   │   └── report.md
+│   │
+│   └── reviews/
+│       ├── quick-review.md
+│       ├── guided-review.md
+│       ├── comprehensive-review.md
+│       └── review-patterns.md
+│
+├── gpt/
+│   └── GPT_BEHAVIOR.md
 │
 ├── docs/
 │
@@ -90,83 +134,59 @@ continuity-design/
 
 ## Framework
 
-The **Continuity Design Framework** defines the conceptual foundation of the project.
+The Framework defines the conceptual language of Continuity Design.
 
-It introduces the principles, concepts, evaluation dimensions, and terminology used to understand how digital products participate in users' broader journeys.
+It introduces the principles, concepts, evaluation dimensions, and terminology required to understand how digital products participate in users' broader journeys.
 
-The framework explains **what** Continuity Design is.
+The Framework explains **what Continuity Design is**.
 
 ---
 
 ## Specification (CDRS)
 
-The **Continuity Design Review Specification (CDRS)** defines a standardized method for applying the framework during product evaluation.
+The Continuity Design Review Specification (CDRS) defines the standardized review methodology.
 
-The specification defines:
+It specifies:
 
-- the review methodology;
 - review modes;
-- accepted evidence;
+- evidence model;
 - confidence model;
-- evaluation process;
-- report structure;
-- conformance requirements.
+- evaluation workflow;
+- report requirements;
+- conformance expectations.
 
-The specification is implementation-independent and may be used by individuals, teams, software applications, or AI systems.
-
-The specification explains **how** the framework is applied.
+The CDRS explains **how the framework is applied**.
 
 ---
 
 ## Reference Assets
 
-Reference Assets provide practical guidance for applying the framework and the specification.
+Reference Assets provide practical guidance for applying the Framework and the CDRS.
 
 They include:
 
-- reference review templates;
-- reference product reviews;
-- examples;
-- implementation guidance.
+- report templates;
+- review patterns;
+- review mode definitions;
+- future reference reviews.
 
-These assets demonstrate one compliant way of applying the CDRS while remaining adaptable to different workflows.
+These assets illustrate one compliant implementation while remaining adaptable to different workflows.
 
 ---
 
 ## Implementations
 
-Implementations apply the framework and the specification through software and services.
+Implementations apply the Framework and the CDRS through software and services.
 
-Future implementations may include:
+Examples include:
 
-- AI review assistants;
-- web applications;
-- command-line tools (CLI);
-- IDE extensions;
-- design tool plugins;
-- documentation generators.
+- AI Review Assistants;
+- Web Applications;
+- IDE Extensions;
+- Documentation generators;
+- Developer tooling.
 
-Implementations are intentionally separate from both the Framework and the CDRS.
-
----
-
-# Repository Roadmap
-
-## Current Release
-
-- ✅ Continuity Design Framework
-- ✅ Continuity Design Review Specification (CDRS)
-- ✅ Reference Review Templates
-
-## Next Milestones
-
-- Reference Product Reviews
-- Community Validation
-- Additional Examples
-- AI Review Assistant
-- Developer Tooling
-
-For the complete roadmap, see **ROADMAP.md**.
+Implementations are intentionally independent from both the Framework and the Specification.
 
 ---
 
@@ -178,13 +198,33 @@ For the complete roadmap, see **ROADMAP.md**.
 
 ---
 
+# Roadmap
+
+Current release includes:
+
+- ✅ Continuity Design Framework
+- ✅ Continuity Design Review Specification (CDRS)
+- ✅ Reference Assets
+- ✅ Official AI Reviewer Knowledge Base
+
+Future milestones include:
+
+- Reference Product Reviews
+- Community Validation
+- AI-assisted Tooling
+- Additional Implementations
+
+For the complete roadmap, see **ROADMAP.md**.
+
+---
+
 # Contributing
 
 Contributions are welcome.
 
 Please read **CONTRIBUTING.md** before submitting issues, suggestions, or pull requests.
 
-Implementation experience, case studies, independent reviews, and constructive discussions are particularly valuable for the continued evolution of the project.
+Implementation experience, independent reviews, case studies, and constructive discussions are especially valuable for the continued evolution of the project.
 
 ---
 
