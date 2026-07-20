@@ -1,17 +1,19 @@
 # Continuity Design
 
-> A framework and open specification for evaluating how digital products support continuity throughout the user's journey.
+> An open framework, specification, and reference implementation for evaluating how digital products support continuity throughout the user's journey.
 
-Continuity Design is an open project that provides a conceptual framework and a practical review specification for evaluating digital products beyond usability and task completion.
+Continuity Design is an open project dedicated to improving how digital products are evaluated.
 
-The project is composed of:
+Rather than replacing existing approaches such as usability, UX, or Jobs-to-be-Done, Continuity Design complements them by introducing a longitudinal perspective centered on meaningful user progress.
 
-- **Continuity Design** — the conceptual framework.
-- **Continuity Design Review Specification (CDRS)** — the standardized review method.
-- **Reference Examples** — example product reviews.
-- **Templates** — reusable review templates for practitioners.
+The project provides:
 
-Together, these components enable consistent, transparent, and actionable product evaluations that can be performed by humans or AI systems.
+- a conceptual framework for understanding continuity throughout the user's journey;
+- a standardized review specification (CDRS);
+- reference templates and examples;
+- a foundation for future tools and AI-assisted evaluations.
+
+Together, these components enable consistent, transparent, and actionable product evaluations that can be performed by individuals, teams, software applications, or AI systems.
 
 ---
 
@@ -29,20 +31,43 @@ Continuity Design addresses a complementary question:
 
 > **How well does this product help users continue their own journey?**
 
-Rather than evaluating isolated interactions, Continuity Design examines how products preserve context, support meaningful progress, and expand relevant future possibilities.
+Rather than evaluating isolated interactions, Continuity Design examines how products preserve context, support meaningful progress, expand future possibilities, and contribute to coherent user journeys over time.
 
 ---
 
-# Project Structure
+# Project Architecture
+
+The project is organized into four complementary layers.
+
+```
+Continuity Design
+        ↓
+Framework
+        ↓
+Specification (CDRS)
+        ↓
+Reference Assets
+        ↓
+Implementations
+```
+
+Each layer has a distinct purpose.
+
+- **Framework** defines the conceptual foundation.
+- **Specification (CDRS)** defines the standardized review method.
+- **Reference Assets** demonstrate how the framework and specification are applied.
+- **Implementations** apply the framework through software, services, and other tools.
+
+---
+
+# Repository Structure
 
 ```
 continuity-design/
 │
 ├── framework/
-│   └── CONTINUITY_DESIGN.md
 │
 ├── specification/
-│   └── CDRS.md
 │
 ├── examples/
 │
@@ -50,7 +75,13 @@ continuity-design/
 │
 ├── docs/
 │
-└── README.md
+├── README.md
+├── ROADMAP.md
+├── CHANGELOG.md
+├── CONTRIBUTING.md
+├── CODE_OF_CONDUCT.md
+├── LICENSE
+└── VERSION
 ```
 
 ---
@@ -61,7 +92,9 @@ continuity-design/
 
 The **Continuity Design Framework** defines the conceptual foundation of the project.
 
-It introduces the principles and evaluation dimensions used to understand how digital products participate in users' broader narratives.
+It introduces the principles, concepts, evaluation dimensions, and terminology used to understand how digital products participate in users' broader journeys.
+
+The framework explains **what** Continuity Design is.
 
 ---
 
@@ -69,9 +102,9 @@ It introduces the principles and evaluation dimensions used to understand how di
 
 The **Continuity Design Review Specification (CDRS)** defines a standardized method for applying the framework during product evaluation.
 
-The specification describes:
+The specification defines:
 
-- the review method;
+- the review methodology;
 - review modes;
 - accepted evidence;
 - confidence model;
@@ -81,38 +114,59 @@ The specification describes:
 
 The specification is implementation-independent and may be used by individuals, teams, software applications, or AI systems.
 
----
-
-## Examples
-
-The repository includes reference product reviews demonstrating how the specification can be applied in practice.
-
-These examples are informative and are not part of the normative specification.
+The specification explains **how** the framework is applied.
 
 ---
 
-## Templates
+## Reference Assets
 
-Templates provide reusable starting points for conducting Continuity Design Reviews.
+Reference Assets provide practical guidance for applying the framework and the specification.
 
-They are intended to simplify adoption while remaining fully compatible with the specification.
+They include:
+
+- reference review templates;
+- reference product reviews;
+- examples;
+- implementation guidance.
+
+These assets demonstrate one compliant way of applying the CDRS while remaining adaptable to different workflows.
+
+---
+
+## Implementations
+
+Implementations apply the framework and the specification through software and services.
+
+Future implementations may include:
+
+- AI review assistants;
+- web applications;
+- command-line tools (CLI);
+- IDE extensions;
+- design tool plugins;
+- documentation generators.
+
+Implementations are intentionally separate from both the Framework and the CDRS.
 
 ---
 
 # Repository Roadmap
 
-Current release:
+## Current Release
 
 - ✅ Continuity Design Framework
 - ✅ Continuity Design Review Specification (CDRS)
+- ✅ Reference Review Templates
 
-Planned additions:
+## Next Milestones
 
-- Reference Reviews
-- Review Templates
-- Documentation Website
+- Reference Product Reviews
+- Community Validation
+- Additional Examples
 - AI Review Assistant
 - Developer Tooling
+
+For the complete roadmap, see **ROADMAP.md**.
 
 ---
 
@@ -121,6 +175,16 @@ Planned additions:
 **Version:** 1.0.0
 
 **Status:** Stable
+
+---
+
+# Contributing
+
+Contributions are welcome.
+
+Please read **CONTRIBUTING.md** before submitting issues, suggestions, or pull requests.
+
+Implementation experience, case studies, independent reviews, and constructive discussions are particularly valuable for the continued evolution of the project.
 
 ---
 
@@ -134,4 +198,4 @@ Henrique Przibisczki de Oliveira
 
 This project is licensed under the **Creative Commons Attribution 4.0 International (CC BY 4.0)**.
 
-See the LICENSE file for details.
+See the **LICENSE** file for details.
