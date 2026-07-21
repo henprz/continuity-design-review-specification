@@ -539,16 +539,21 @@ Implementations MAY internally use alternative assessment methods provided the r
 
 ## 11.3 Overall Assessment
 
-A Continuity Design Review SHOULD include an Overall Assessment summarizing the principal findings across all evaluated dimensions.
+A Continuity Design Review SHOULD include an Overall Assessment that synthesizes the principal interpretation emerging from the review.
+
+Rather than merely summarizing the evaluated dimensions, the Overall Assessment SHOULD explain how the evaluated product appears to support continuity throughout the user's broader journey.
 
 The Overall Assessment SHOULD identify:
 
-- the product's primary strengths;
-- the principal continuity challenges;
+- the product's apparent approach to supporting continuity;
+- the principal strengths of that approach;
+- the principal trade-offs or tensions introduced by that approach;
 - the most significant opportunities for improvement; and
-- any limitations affecting the review.
+- any important limitations affecting the review.
 
-The Overall Assessment SHOULD remain consistent with the individual dimension assessments and SHOULD NOT introduce unsupported conclusions.
+The Overall Assessment SHOULD represent a synthesis of the evaluated dimensions rather than a repetition of their individual findings.
+
+Products exhibiting similar levels of continuity MAY legitimately produce substantially different Overall Assessments when they rely on different approaches for supporting user continuity.
 
 # 12. Report Structure
 
@@ -634,9 +639,11 @@ It SHOULD identify:
 
 ## 12.7 Conclusion
 
-The report SHOULD conclude with an Overall Assessment summarizing the principal strengths, continuity challenges, and opportunities for improvement identified during the review.
+The report SHOULD conclude by synthesizing the principal interpretation emerging from the review.
 
-The Conclusion SHOULD remain consistent with the findings presented throughout the report.
+Rather than repeating the findings, the Conclusion SHOULD explain how the evaluated product appears to support continuity, which trade-offs characterize that approach, and what opportunities exist to strengthen it without undermining its apparent design strategy.
+
+The Conclusion SHOULD remain fully supported by the findings presented throughout the report and SHOULD avoid introducing unsupported interpretations.
 
 # 13. Conformance
 
