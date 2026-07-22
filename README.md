@@ -31,7 +31,6 @@ Rather than concentrating all knowledge in a few large documents, each document 
 | What do the framework's terms mean? | `framework/GLOSSARY.md` |
 | How should a Continuity Design reviewer think? | `framework/REVIEW_PHILOSOPHY.md` |
 | How should Continuity Design observations be written? | `templates/reviews/review-patterns.md` |
-| How should the official AI reviewer interact with users? | `gpt/GPT_BEHAVIOR.md` |
 | How is a Continuity Design review performed? | `specification/CDRS.md` |
 | How is the final review report structured? | `templates/reports/report.md` |
 | When should a Quick Review be used? | `templates/reviews/quick-review.md` |
@@ -113,9 +112,6 @@ continuity-design/
 │       ├── guided-review.md
 │       ├── comprehensive-review.md
 │       └── review-patterns.md
-│
-├── gpt/
-│   └── GPT_BEHAVIOR.md
 │
 ├── docs/
 │
@@ -205,7 +201,6 @@ Current release includes:
 - ✅ Continuity Design Framework
 - ✅ Continuity Design Review Specification (CDRS)
 - ✅ Reference Assets
-- ✅ Official AI Reviewer Knowledge Base
 
 Future milestones include:
 
