@@ -113,7 +113,9 @@ continuity-design/
 │       ├── comprehensive-review.md
 │       └── review-patterns.md
 │
-├── docs/
+├── examples/
+│   ├── README.md
+│   └── (reference reviews and journey recordings)
 │
 ├── README.md
 ├── ROADMAP.md
@@ -201,10 +203,11 @@ Current release includes:
 - ✅ Continuity Design Framework
 - ✅ Continuity Design Review Specification (CDRS)
 - ✅ Reference Assets
+- ✅ Reference Product Reviews
 
 Future milestones include:
 
-- Reference Product Reviews
+- Additional Review Examples
 - Community Validation
 - AI-assisted Tooling
 - Additional Implementations

@@ -27,12 +27,48 @@ Initial public release of the project.
 
 Completed:
 
-- Continuity Design Framework
-- Continuity Design Review Specification (CDRS)
-- Reference review templates
-- Project documentation
-- Contribution guidelines
-- Project governance
+## Framework
+
+- `framework/CONTINUITY_DESIGN.md` — core framework definition
+- `framework/PRINCIPLES.md` — framework principles
+- `framework/DIMENSIONS.md` — evaluation dimensions
+- `framework/GLOSSARY.md` — terminology
+- `framework/REVIEW_PHILOSOPHY.md` — reviewer mindset
+- `framework/README.md`
+
+## Specification
+
+- `specification/CDRS.md` — Continuity Design Review Specification
+- `specification/README.md`
+
+## Reference Assets
+
+- `templates/reviews/quick-review.md`
+- `templates/reviews/guided-review.md`
+- `templates/reviews/comprehensive-review.md`
+- `templates/reviews/review-patterns.md`
+- `templates/reports/report.md`
+- `templates/README.md`
+
+## Reference Examples
+
+- `examples/README.md` — naming conventions and reproduction guidance
+- Five Quick Review examples with recorded user journeys:
+  - autocomplete-amazon
+  - search-mercadolivre
+  - pdp-enjoei
+  - pdp-mercadolivre
+  - pdp-petlove
+
+## Project Documentation
+
+- `README.md`
+- `CHANGELOG.md`
+- `CONTRIBUTING.md`
+- `CODE_OF_CONDUCT.md`
+- `LICENSE`
+- `VERSION`
+- `ROADMAP.md`
 
 ---
 
@@ -44,8 +80,8 @@ Focus on validating and refining the framework through practical application.
 
 Potential additions include:
 
-- Reference product reviews
-- Example review repository
+- Additional reference product reviews
+- Guided Review and Comprehensive Review examples
 - Framework refinements based on implementation experience
 - Specification clarifications
 - Additional documentation
@@ -62,8 +98,7 @@ Focus on community adoption and ecosystem growth.
 
 Potential additions include:
 
-- Additional review examples
-- Community contributions
+- Community-contributed review examples
 - Domain-specific review examples
 - Educational material
 - Best practices
@@ -96,10 +131,10 @@ The immediate focus of the project is validating the framework and the specifica
 
 Current priorities include:
 
-- Producing reference product reviews.
-- Expanding the examples repository.
+- Expanding the examples repository with additional journeys and review modes.
 - Refining the framework based on implementation experience.
 - Clarifying the specification where necessary.
+- Encouraging community validation and independent reviews.
 - Preserving backward compatibility of the CDRS.
 
 ---
@@ -108,9 +143,9 @@ Current priorities include:
 
 The long-term vision is to establish Continuity Design as an open ecosystem for evaluating digital products.
 
-The project is expected to evolve across five complementary layers:
+The project is expected to evolve across four complementary layers:
 
-```
+```text
 Continuity Design
         ↓
 Framework
